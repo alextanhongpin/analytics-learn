@@ -64,3 +64,23 @@ Difference measured during this period:
 Does it work well?
 Notes
 ```
+
+## Useful patterns for data
+- Tag the start date. This allows us to know if the report is indeed stale or not. Always strive to produce a better ones.
+- add similar tags
+
+Create user profile for each individuals.
+- Store the actions/events/behaviours in a bucket for each user
+- Whenever a new user action is performed, gather the metrics
+- For each metrics, assign a behaviour, e.g. if the user login actively, give them the behaviour “active user”
+
+Upload documents/data
+- allow users to ask questions on the documents they uploaded. For example if it is an insurance policy, users can ask if they are covered for certain incident
+
+## Slowly changing dimensions/Trends/Seasonal
+
+How do we deal with such analytics? Simple, add a time decay.
+
+## Learning from Decisions
+
+can we add a page called downtime in Confluence, and record what happened, what we did, how we approach it, what works/what doesn’t, how long was the downtime and when it recover?
