@@ -84,3 +84,27 @@ How do we deal with such analytics? Simple, add a time decay.
 ## Learning from Decisions
 
 can we add a page called downtime in Confluence, and record what happened, what we did, how we approach it, what works/what doesn’t, how long was the downtime and when it recover?
+
+
+
+## how to track user activity across different devices and time?
+we can use bitmap to track user’s daily and hourly records
+- weekly: [sun, mon, tue, wed, thu, fri, sat] days
+- daily: [0…23] hours
+From here we can find the most common day that the user login, and the most frequent time that the user is online. If we gather this enough for a month, we can have the data average presented.
+How long should the data be kept? Probably 1 month old, so what we will do is collapse the old data counts 
+
+Find the most visited site for each user. and from there we can infer if the content is what they need.
+
+users_most_visited_pages: []
+users_most_online_time: []
+users_average_time_on_device: []
+users_time_taken_to_complete_process… (can be a good measure for forms etc, to improve the form design etc)
+users_most_searched_keyword: []
+
+## how_does_ab_testing work?
+
+## bandit algorithms
+
+## Experiments
+- headline testing
