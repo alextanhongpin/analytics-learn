@@ -108,3 +108,16 @@ users_most_searched_keyword: []
 
 ## Experiments
 - headline testing
+
+
+## Metrics
+
+What are the core metrics required for the team for a particular field?
+- CI/CD
+- ecommerce
+- marketing
+- sql 
+
+## References
+
+https://sparktoro.com/blog/how-to-measure-hard-to-measure-marketing-channels/
