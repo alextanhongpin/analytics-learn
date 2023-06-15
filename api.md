@@ -37,3 +37,15 @@
  | `error_rate` | Rate of errors occurring in a system or process | Gauge |
 
  Please note that these groupings are not exhaustive, and you can categorize metrics based on your specific monitoring requirements.
+
+
+
+ ## Background Jobs/Outbox Pattern
+
+
+ **System Metrics:**
+
+| Metric Name                       | Description                                        | Metric Type |
+|-----------------------------------|----------------------------------------------------|-------------|
+| `outbox_size`                     | Number of pending outbox message to be delivered   | Gauge       |
+| `inbox_size`                      | Number of pending inbox message to be processed    | Gauge       |
