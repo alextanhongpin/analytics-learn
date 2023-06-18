@@ -49,3 +49,17 @@
 |-----------------------------------|----------------------------------------------------|-------------|
 | `outbox_size`                     | Number of pending outbox message to be delivered   | Gauge       |
 | `inbox_size`                      | Number of pending inbox message to be processed    | Gauge       |
+
+
+
+
+## Others
+
+
+- logged in, non-logged in users (guest, paid)
+- by tier (free, paid, enterprise)
+- by a/b test
+- by usecase
+- by location (country)
+- by access control
+- by device type

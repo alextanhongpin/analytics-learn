@@ -15,3 +15,9 @@
  | `bottomk(5, metric_name)` | Returns the bottom 5 time series with the lowest values for a given metric. | Useful for identifying the least performing or least utilized entities based on a metric. | Gauge |
 
  Please note that the applicable metric types mentioned here are general guidelines, and the suitability of a PromQL query may vary based on your specific metric setup and requirements.
+
+
+
+This PromQL queries can help you perform various analytical operations, such as calculating sums, averages, rates, percentiles, identifying maximums and minimums, analyzing histograms, and identifying top/bottom performers or outliers based on metrics.
+
+https://promlabs.com/promql-cheat-sheet/
